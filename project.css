@@ -1,0 +1,17 @@
+#top {
+	background-color: #EEEEEE;
+}
+
+#left {
+	width: 37%;
+	background-color: #7EE5DA;
+}
+
+#middle {
+	background-color: #70CCC2;
+}
+
+#right {
+	background-color: #62B3AA;
+	text-align: right;
+}
