@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 #top {
 	background-color: #EEEEEE;
 }
@@ -14,4 +17,59 @@
 #right {
 	background-color: #62B3AA;
 	text-align: right;
+}
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 20px;
+	background-color: #2d2d2d;
+}
+section#left {
+	margin-top: 0;
+	padding-top: 50;
+    float: left;
+	width: 8%;
+	height: 550px;
+	background-color: #7EE5DA
+}
+section#left a:hover {
+	background-color:white;
+}
+section#right {
+	padding-top: 50;
+	margin-top: 0;
+    float: right;
+	width: 10%;
+	height: 550px;
+	background-color: #7EE5DA
+}
+input#email {
+	width: 100%;
+}
+aside {
+	padding-top: 50;
+	margin-top: 0;
+	float: left;
+	width: 82%;
+	height: 550px;
+	background-color: white;
+}
+footer {
+	clear: both;
+	background-color: #2d2d2d;
+	color: white;
+}
+.blu {
+	color: blue;
+}
+.red {
+	color: red;
+}
+.ylw {
+	color: yellow;
+}
+.grn {
+	color: green;
 }
