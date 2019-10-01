@@ -4,20 +4,6 @@ body {
 #top {
 	background-color: #EEEEEE;
 }
-
-#left {
-	width: 37%;
-	background-color: #7EE5DA;
-}
-
-#middle {
-	background-color: #70CCC2;
-}
-
-#right {
-	background-color: #62B3AA;
-	text-align: right;
-}
 header {
 	position: fixed;
 	top: 0px;
@@ -31,7 +17,7 @@ section#left {
 	padding-top: 50;
     float: left;
 	width: 8%;
-	height: 550px;
+	height: 165%;
 	background-color: #7EE5DA
 }
 section#left a:hover {
@@ -42,7 +28,7 @@ section#right {
 	margin-top: 0;
     float: right;
 	width: 10%;
-	height: 550px;
+	height: 165%;
 	background-color: #7EE5DA
 }
 input#email {
@@ -53,13 +39,16 @@ aside {
 	margin-top: 0;
 	float: left;
 	width: 82%;
-	height: 550px;
+	height: 100%;
 	background-color: white;
 }
 footer {
 	clear: both;
 	background-color: #2d2d2d;
 	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 }
 .blu {
 	color: blue;
@@ -72,4 +61,13 @@ footer {
 }
 .grn {
 	color: green;
+}
+p {
+	padding-left: 75px;
+	font-family: arial;
+}
+#leftdiv {
+	position: fixed;
+	width: 8%;
+	height: 350px;
 }
