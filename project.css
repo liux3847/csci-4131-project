@@ -15,7 +15,7 @@ header {
 section#left {
 	margin-top: 0;
 	padding-top: 50;
-    float: left;
+    	float: left;
 	width: 8%;
 	height: 165%;
 	background-color: #7EE5DA
@@ -26,7 +26,7 @@ section#left a:hover {
 section#right {
 	padding-top: 50;
 	margin-top: 0;
-    float: right;
+    	float: right;
 	width: 10%;
 	height: 165%;
 	background-color: #7EE5DA
