@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>YT Clipper</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+  <body onload="init()">
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+		<center><h1>YT Clipper</h1>
+		<p>This website allows for specific clipping and playback of Youtube videos in a specified timeframe.<br>
+		You can use the rudimentary search function or manually input the video ID. This must also be run on a <br>
+		HTTP server.</p></center>
+		
+		<main>
+			<div class = "container">
+				<div id="radios">
+					 <input type="radio" name="sel" checked value="list" onchange="updateMode()">Search List </input> <br>
+					 <input type="radio" name="sel" value="manual" onchange="updateMode()">Manual Select </input> <br>
+				</div>
+				<p>
+				<label>Select video topic</label>
+				<select id ="selection">
+					<option value="sports">Sports</option>
+					<option value="music">Music</option>
+					<option value="television">Television</option>
+					<option value="news">News</option>
+				</select>
+				<button id="search" onclick="search()">Search</button>
+				<br /> <br>
+				<label>Youtube Video ID</label>
+				<select id = "youtubeID"></select>
+				<input id = "youtubeIDtext" type="text" />
+				<br> <br>
+				
+				<label>Start Time in seconds:</label>
+				<input type="number" id="start" min="0" value=0> <br /> <br>
+				<label>End Time in seconds: </label>
+				<input type="number" id="end" min="0" value= 5> <br /> <br>
+				<button onclick="clip()">Clip</button> <br> <br>
+			</div>
+			<div id="player"></div>
+		</main>
+		<script src="https://apis.google.com/js/api.js"></script>
+		<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
