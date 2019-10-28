@@ -140,6 +140,7 @@ gapi.client.load("youtube", "v3", function() {
 }
 
 window.twttr = (function(d, s, id) {
+  console.log("Init twitter api");
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
   if (d.getElementById(id)) return t;
